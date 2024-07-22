@@ -1,0 +1,12 @@
+name: learn-github-actions
+run-name: ciao da parte di ${{ github.actor }} 
+on: [push]
+jobs:
+  prova-fa-cose:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Fineeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  prova2-fa-cose:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "prova2"
